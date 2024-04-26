@@ -32,7 +32,7 @@
 <img src="images perpustakaan.jpg">
 <hr></hr>
 <center><table border="l">
-<th><h3 style="color:rgba(212, 79, 168, 0.267)> About this Website </h3></th>
+<th><h3 style="color:red"> About this Website </h3></th>
 <tr>
 <td>
 <p> Hallo! Terima kasih telah mengunjungi website ini </p>
