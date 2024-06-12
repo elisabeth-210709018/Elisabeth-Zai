@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Javascript Library</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.css">
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<style>table{width:100%;border-collapse:collapse}th,td{padding:8px;text-align:left;border-bottom:1px solid #13090d}tr:hover{background-color:rgb(252, 151, 37)}.highlight{background-color:#f8a1a1}body{background-color:#4ee9e9}</style>
+</head>
+<body>
+<h1 style="text-align: center; color: rgb(129, 36, 8); background: rgb(46, 222, 245);">KOLEKSI BUKU</h1>
+<table id="library-table">
+<thead>
+<tr>
+<th>Judul Buku</th>
+<th>Penerbit</th>
+<th>Tahun Terbit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>100 misteri duia yang belum terungkap</td>
+<td>Book marks</td>
+<td>2004</td>
+</tr>
+<tr>
+<td>16 iee wiring regulations: inspection, testing & certification</td>
+<td>elsever apllied science publisher</td>
+<td>2005</td>
+</tr>
+<tr>
+<td>A Companion to science fiction</td>
+<td>Blackweil scientifik</td>
+<td>2008</td>
+</tr>
+<tr>
+<td>Analysis of polymer system </td>
+<td>Applied science publishers</td>
+<td>1982</td>
+</tr>
+<tr>
+<td>Bank and market : studies in the british economy</td>
+<td>Heinemann education</td>
+<td>1972</td>
+</tr>
+<tr>
+<td>Comparative political economy</td>
+<td>Pilar  bambu kuning</td>
+<td>1990</td>
+</tr>
+<tr>
+<td>Administrasi perkantoran</td>
+<td>Management publications</td>
+<td>1989</td>
+</tr>
+<tr>
+<td>Asfiksia</td>
+<td>usu press</td>
+<td>2021</td>
+</tr>
+<tr>
+<td>menganalisis fiksi: sebuah pengantar</td>
+<td>get your wisdom</td>
+<td>2010</td>
+</tr>
+</tbody>
+</table>
+<script>$(document).ready(function(){$("#library-table").DataTable({paging:false,searching:true,ordering:true});$("tr").mouseover(function(){$(this).addClass("highlight");});$("tr").mouseout(function(){$(this).removeClass("highlight");});$("th").addClass("animate_animated animate_bounce");});</script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MODUL PHP</title>
+</head>
+<body>
+    <h1>IMPUT BILANGAN UJIAN</h1>
+</body>
+</html>
+<html>
+<head><title>Modul 7.2 My First Form</title></head>
+<body>
+<form action="tuj uan. php" method="post">
+<center>
+<table border="1 pt" bgcolor="green">
+<tr>
+<td><font
+face="verdana"
+pt">Username</font></td>
+<td><input type="text" name="nama"></td>
+</tr>
+<tr>
+<td><font
+face="verdana"size="2
+pt">Email</FONT></td>
+<td><input type="text" name="email"></td>
+</tr>
+<tr>
+<td><font
+face="verdana"size="2
+pt">Password</FONT></td>
+<td><input type="password" name="pass"></td>
+<tr>
+<td>
+<input type="submit"
+
+name="
+
+value="Simpan">
+ <input type="reset" name "hapus" value="Hapus">
+</td>
+</tr>
+</table>
+</center>
+</form>
+
+</body>
+</html>
+
+<html>
+<head>
+<title>Modul 7.3,4 Login</title>
+</head>
+<body>
+LOGIN
+<form method="post" action="aksı_login.php">
+<input class="masuk" type="text" autocomplete="off" placeholder "Your Name" name="username" autofocus required><br/>
+<input class="masuk" type="password" autocomplete="off"
+placeholder="Your Password" name="password" required><br/>
+<input id="tombol" type="submit" value="Login">
+</form>
+</body>
+</html>
+<?php
+=
+session start();//mulai session, karena kita akan menggunakan sen p file php ini
+include 'konck.php'; //hubungkan dengan koneksi php untuk berlabungan dengan database
+Susername=$ POST ['libertina']; //tangkap data yg di input dari form login input username
+Spassword=S POST ['123456']; //tangkap data yg di input dari form login input password
+Squery=mysql_query("select from user where username Susemame and password Spassword")//melakukan pengampilan data dari database
+untuk di cocokkan
+Sxxx=mysql_num_rows (Squery);//melakukan pencocokan if ($xxx TRUE) ( // melakukan pemeriksaan kecocokan dengan percabangan
+   
+    
+    <ul>
+        <?php
+        for ($i = 1; $i <= 1000; $i++) {
+            "<li>Hari ke " . 1 . " UJIAN</li>
+            "<li>Hari ke " . 2 . " UJIAN
+            "<li>Hari ke " . 3 . " UJIAN
+            "<li>Hari ke " . 4 . " UJIAN
+            "<li>Hari ke " . 5 . " UJIAN
+            "<li>Hari ke " . 6 . " UJIAN
+            "<li>Hari ke " . 7 . " UJIAN
+            "<li>Hari ke " . 8 . " UJIAN
+            "<li>Hari ke " . 9 . " UJIAN
+            "<li>Hari ke " . 10 . " UJIAN
+            "<li>Hari ke " . 11 . " UJIAN
+            "<li>Hari ke " . 12 . " UJIAN
+            "<li>Hari ke " . 13 . " UJIAN
+            "<li>Hari ke " . 14 . " UJIAN
+            "<li>Hari ke " . 15 . "UJIAN
+            "<li>Hari ke " . 16 . " UJIAN
+            "<li>Hari ke " . 17 . " UJIAN
+            "<li>Hari ke " . 18 . " UJIAN
+            "<li>Hari ke " . 19 . " UJIAN
+            "<li>Hari ke " . 20. " UJIAN
+            "<li>Hari ke " . 21 . " UJIAN
+            "<li>Hari ke " . 22 . " UJIAN
+            "<li>Hari ke " . 23 . " UJIAN
+            "<li>Hari ke " . 24 . " UJIAN
+            "<li>Hari ke " . 25 . " UJIAN
+            "<li>Hari ke " . 26 . "UJIAN
+            "<li>Hari ke " . 27. " UJIAN
+            "<li>Hari ke " . 28 . " UJIAN
+            "<li>Hari ke " . 29 . " UJIAN
+            "<li>Hari ke " . 30 . " UJIAN 
+            "<li>Hari ke " . 31 . " UJIAN
+            "<li>Hari ke " . 32 . " UJIAN
+            "<li>Hari ke " . 33 . " UJIAN
+            "<li>Hari ke " . 34 . " UJIAN      
+
+    </ul>
+
+<br></Br>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Sederhana</title>
+    <script>
+        function hitung() {
+            var bilangan1 = parseFloat(document.getElementById("bilangan1").value);
+            var bilangan2 = parseFloat(document.getElementById("bilangan2").value);
+            var operasi = document.getElementById("operasi").value;
+            var hasil;
+
+            if (operasi === "tambah") {
+                hasil = bilangan1 + bilangan2;
+            } else if (operasi === "kurang") {
+                hasil = bilangan1 - bilangan2;
+
+            document.getElementById("hasil_perhitungan").innerText = "Hasil: " + hasil;
+        }
+    </script>
+</head>
+<body>
+    <h2>Operasi Bilangan</h2>
+    <label for="bilangan1">Bilangan 1:</label>
+    <input type="number" id="bilangan1" name="bilangan1" required><br><br>
+    
+    <label for="bilangan2">Bilangan 2:</label>
+    <input type="number" id="bilangan2" name="bilangan2" required><br><br>
+    
+    <label for="operasi">Operasi:</label>
+    <select id="operasi" name="operasi" required>
+        <option value="tambah">Penjumlahan (+)</option>
+        <option value="kurang">Pengurangan (-)</option>
+    </select><br><br>
+    
+    <button type="button" onclick="hitung()">Hitung</button><br><br>
+
+   <h2> <div id="hasil_perhitungan"></div></h2>
+</body>
+</html>
+
+<br> </Br>
