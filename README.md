@@ -23,6 +23,11 @@
 <a href="modul 1- html.html">Perpustakaan Perguruan Tinggi, Audio, Video</a>
 <a href="modul 1-2 html.html">Formulir Anggota Perpustakaan, Form Perpanjangan Peminjaman Buku, Pemesanan Buku, dan Tabel Bahan Buku</a>
 <a href="modul 3.2 html.2 html.html">Pengenalan HTML dan CSS dengan Variasi CSS</a>
+<a href="modul 4.html ">Halaman web menu dan dropdown menu</a>
+<a href="modul 5.html"> Data dalam javascript, dan halam html</a>
+<a href="modul 6.2.html">web perpustakaaan javascript, dan Struktur Query</a>
+<a href="modul 7.10.html">Halaman web untuk mengimput dua bilangan, Tombil hitung, dan login username dan password</a>
+<a href="modul 8.1.html">Halaman data base</a>
 
 </div>
 </body>
